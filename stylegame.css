@@ -73,8 +73,26 @@
   #replay svg {
     margin-right: 8px;
   }
-
-  
+  @media (max-width: 600px) {
+    #replay {
+      margin-bottom: 20px;
+    }
+    #replay,
+    h2 {
+      transform: rotate(0deg);
+    }
+    #ui {
+      flex-flow: row wrap;
+      margin-bottom: 20px;
+    }
+    #score {
+      margin-top: 0;
+      margin-left: 20px;
+    }
+    .container {
+      flex-flow: column wrap;
+    }
+  }
   #author {
     width: 100%;
     bottom: 40px;
